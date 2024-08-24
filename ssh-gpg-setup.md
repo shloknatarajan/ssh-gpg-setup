@@ -210,7 +210,7 @@ Sometimes, you may still get an error when trying to sign your commit. Here are 
 1. Run `export GPG_TTY=$(tty)`  from the terminal
 2. Download [GPG Suite](https://gpgtools.org/). Run the program and your keys should show up in the list. Right click your sec/pub for your account and click “Sign.”
 
-Authorize they key if you’re getting a single sign on error
+Authorize the key if you’re getting a single sign on error
 
 ssh -Tv is also good for debugging
 
