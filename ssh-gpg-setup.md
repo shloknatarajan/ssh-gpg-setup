@@ -32,7 +32,7 @@ Some repositories require signed commits, to sign your commits you need to have 
 For reference: [Generating a new GPG key - GitHub Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
 
 1. Download and install [GPG command line tools](https://www.gnupg.org/download/) if you haven’t already. You can also install via `brew install gnupg`
-2. Generate a GPG key pair by running `gpg —full-generate-key`  from the terminal
+2. Generate a GPG key pair by running `gpg -—full-generate-key`  from the terminal
     1. Use the default RSA key option and enter a name and email address when prompted. 
     2. This will be used to create a User-ID for the key ex. “`Account 1 Name <account-1-email@salesforce.com>"` so make sure they name provides some info that can allow you to differentiate between accounts so you know which gpg key is for which account.
 3. Repeat step 2 for your other accounts
