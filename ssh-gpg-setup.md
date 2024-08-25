@@ -31,7 +31,7 @@ ssh-add --apple-use-keychain ~/.ssh/[account 2 ssh file name no .pub extension]
 Some repositories require signed commits, to sign your commits you need to have a gpg key setup. If you skip this step you will likely get an error along the lines of ‘gpg failed to sign the data’ when trying to interact with this repository. You can also complete step 4 to finish SSH setup and return to this one to setup commit signing separately.
 For reference: [Generating a new GPG key - GitHub Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
 
-1. Download and install [GPG command line tools](https://www.gnupg.org/download/) if you haven’t already
+1. Download and install [GPG command line tools](https://www.gnupg.org/download/) if you haven’t already. You can also install via `brew install gnupg`
 2. Generate a GPG key pair by running `gpg —full-generate-key`  from the terminal
     1. Use the default RSA key option and enter a name and email address when prompted. 
     2. This will be used to create a User-ID for the key ex. “`Account 1 Name <account-1-email@salesforce.com>"` so make sure they name provides some info that can allow you to differentiate between accounts so you know which gpg key is for which account.
