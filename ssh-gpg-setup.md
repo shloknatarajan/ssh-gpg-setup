@@ -83,7 +83,7 @@ ssb   cv25519/6BB6D45482678BE3 2016-03-10
 The keys are displayed in the format `encryption_type/key`
 
 1. Copy the key following `encryption type/` (ex. 3AA5C34371567BD2 for account-1) and run the command:
-    1. `gpg —armor —export 3AA5C34371567BD2 // replace with your key`
+    1. `gpg —-armor -—export 3AA5C34371567BD2 // replace with your key`
 2. Copy your GPG key, beginning with `-----BEGIN PGP PUBLIC KEY BLOCK-----` and ending with `-----END PGP PUBLIC KEY BLOCK-----`
 3. Navigate to https://github.com/settings/keys (same place used for adding SSH keys)
 4. Click **New GPG key**
