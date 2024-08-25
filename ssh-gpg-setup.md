@@ -130,7 +130,7 @@ This sets up an alias for the host name [github.com](http://github.com/) that wi
 ```
 [user]
   name = Account 1 Name
-  email = account-1@salesforce.com
+  email = account-1@address.com
   signingkey = 3AA5C34371567BD2 // set's this as default signing key
 [alias]
         ci = commit
